@@ -4,62 +4,60 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Persönliche Website Oliver N.</title>
   </head>
   <body>
     <header>
       <h1>Oliver Neuhäusler</h1>
-      <nav>
-        <div>
-          <ul>
-            <li>Kontaktdaten</li>
-            <li>Links</li>
-            <li>Bio</li>
-          </ul>
-        </div>
+      <nav class="navbar">
+        <a href="#Interessen" class="nav">Interessen</a>
+        <a href="#Fähigkeiten" class="nav">Fähigkeiten</a>
+        <a href="#Kontakt" class="nav">Kontakt</a>
       </nav>
-      <img
-        src="IMG_20210117_155856.jpg"
-        alt="Ein Bild von mir im Winter"
-        width="400"
-      />
-      <br />
-      Winterbild von mir
+      <section class="image">
+        <img
+          src="IMG_20210117_155856.jpg"
+          alt="Ein Bild von mir im Winter"
+          width="400"
+        />
+        <p>Winterbild von mir</p>
+      </section>
     </header>
     <main>
       <section>
-        <h3>Interessen</h3>
-        <ul>
-          <li>Reenecment</li>
-          <li>Nordische Mytologie</li>
-          <li>Autos</li>
-          <li>Programieren</li>
-          <li>PC Hardware und Softwar</li>
-          <li>Elektrizität</li>
-          <li>Sport</li>
-          <li>Rennradfahren</li>
+        <h3 id="Interessen">Interessen</h3>
+        <ul class="list">
+          <li class="list-item">Reenecment</li>
+          <li class="list-item">Nordische Mytologie</li>
+          <li class="list-item">Autos</li>
+          <li class="list-item">Programieren</li>
+          <li class="list-item">PC Hardware und Softwar</li>
+          <li class="list-item">Elektrizität</li>
+          <li class="list-item">Sport</li>
+          <li class="list-item">Rennradfahren</li>
         </ul>
-        <h3>Fähigkeiten</h3>
-        <ul>
-          <li>Bald Programieren</li>
-          <li>Elektroinstalation</li>
-          <li>Verkaufsgespräche</li>
-          <li>Organisieren</li>
-          <li>Handwerkliche Fähigkeiten</li>
-        </ul>
-      </section>
-      <section>
-        <h4>Kontaktinformationen</h4>
-        <ul>
-          <li>Oliver Neuhäusler</li>
-          <li>Hochstiftstr. 19</li>
-          <li>89426 Wittislingen</li>
-          <li>Tel: 0151/58518895</li>
-          <li>Email: oliver-neuhaeusler@gmx.net</li>
+        <h3 id="Fähigkeiten">Fähigkeiten</h3>
+        <ul class="list">
+          <li class="list-item">Bald Programieren</li>
+          <li class="list-item">Elektroinstalation</li>
+          <li class="list-item">Verkaufsgespräche</li>
+          <li class="list-item">Organisieren</li>
+          <li class="list-item">Handwerkliche Fähigkeiten</li>
         </ul>
       </section>
       <section>
-        <h2>Links zu meinen Seiten</h2>
+        <h3 id="Kontakt">Kontaktinformationen</h3>
+        <ul class="list">
+          <li class="list-item">Oliver Neuhäusler</li>
+          <li class="list-item">Hochstiftstr. 19</li>
+          <li class="list-item">89426 Wittislingen</li>
+          <li class="list-item">Tel: 0151/58518895</li>
+          <li class="list-item">Email: oliver-neuhaeusler@gmx.net</li>
+        </ul>
+      </section>
+      <section>
+        <h4>Links zu meinen Seiten</h4>
         <img src="" alt="Logo von Github" />
         <a href="https://github.com/OliverNeuhaeusler">Mein Github Profil</a>
         <img src="" alt="Logo von Codepen" />
@@ -67,7 +65,7 @@
         <img src="" alt="Facebook Logo" />
         <a href="https://www.facebook.com/neuhaeusler">Mein Facebook Profil</a>
       </section>
-      <section>
+      <section class="bio">
         <h4>Über mich</h4>
         <p>
           Ich heise Oliver Neuhäusler bin 33 Jahre alt, komme aus Wittislingen
