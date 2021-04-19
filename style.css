@@ -41,8 +41,8 @@ h1 {
 .list_2 {
   list-style: none;
   display: grid;
-  grid-template-columns: repeat(auto-fit, 2rem);
-  xgrid-template-rows: repeat(3, auto);
+  grid-template-columns: repeat(5, auto);
+  grid-template-rows: repeat(3, auto);
   border: orangered ridge 0.3rem;
   border-radius: 10px;
   background-color: orange;
